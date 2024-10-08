@@ -3,15 +3,14 @@
 	flex-direction: row;
 	justify-content: flex-end;
 	align-items: center;
-	padding-top: 2em;
-	padding-bottom: 2em;
+	padding: 1.5rem 1rem;
 }
 
 .header__menu {
 	display: flex;
 	align-items: center;
 	list-style: none;
-	gap: 2em;
+	gap: 1rem;
 }
 
 .header__line {
@@ -20,15 +19,29 @@
 }
 
 .header__resume {
-	font-size: var(--size-sm);
+	font-size: var(--size-xs);
 	cursor: pointer;
 }
 
 .header__link {
-	font-size: var(--size-base);
+	font-size: var(--size-sm);
 	text-decoration: none;
 	font-weight: 600;
 	color: var(--clr-slate600);
 	letter-spacing: -0.05em;
 	transition: color 0.3s;
+}
+
+@media (min-width: 1024px) {
+	.header__menu {
+		gap: 2rem;
+	}
+
+	.header__resume {
+		font-size: var(--size-sm);
+	}
+
+	.header__link {
+		font-size: var(--size-base);
+	}
 }
