@@ -1,0 +1,36 @@
+.preface {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	gap: 1em;
+	margin-top: 2rem;
+}
+
+.preface__img {
+	border-radius: 50%;
+	width: 8rem;
+	height: 8rem;
+}
+
+.preface__subtitle {
+	color: var(--clr-slate600);
+}
+
+.preface__title {
+	color: var(--clr-slate400);
+	font-size: var(--size-10xl);
+	letter-spacing: -0.05em;
+	line-height: 0.9;
+}
+
+.preface__desc {
+	max-width: 60ch;
+	color: var(--clr-slate600);
+	font-size: var(--size-2xl);
+}
+
+.preface__reach {
+	font-size: var(--size-xl);
+}
