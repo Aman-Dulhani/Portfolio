@@ -20,19 +20,54 @@
 	<body>
 		<header class="header container">
 			<nav>
-				<ul>
+				<ul class="header__menu">
 					<li>
-						<a href="#about">About</a>
+						<a
+							class="header__link"
+							href="#about"
+							>About</a
+						>
 					</li>
 					<li>
-						<a href="#featured">Work</a>
+						<a
+							class="header__link"
+							href="#featured"
+							>Work</a
+						>
 					</li>
 					<li>
-						<a href="#contact">Contact</a>
+						<a
+							class="header__link"
+							href="#contact"
+							>Contact</a
+						>
+					</li>
+					<li class="header__line"></li>
+					<li>
+						<a class="header__resume btn">Resume</a>
 					</li>
 				</ul>
 			</nav>
 		</header>
+		<main>
+			<section class="preface container">
+				<img
+					class="preface__img"
+					src="./public/vite.svg"
+					alt="profile image"
+				/>
+				<h2 class="preface__subtitle">Hi, I am Aman 👋</h2>
+				<h1 class="preface__title">
+					FRONT-END <br />
+					WEB DEVELOPER.
+				</h1>
+				<p class="preface__desc">
+					A passionate <strong>Frontend Developer</strong> with experience in
+					ReactJS, Javascript, Redux and other frontend technologies
+				</p>
+				<button class="preface__reach btn">Reach Out</button>
+			</section>
+		</main>
 		<script
 			type="module"
 			src="/main.js"
